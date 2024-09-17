@@ -37,7 +37,7 @@ void print_game_grid() {
 }
 
 int main(){
-    if(initalize_game) printf("Initalize game success!\n");
+    if(initalize_game()) printf("Initalize game success!\n");
     print_game_grid();
     return 1;
 }

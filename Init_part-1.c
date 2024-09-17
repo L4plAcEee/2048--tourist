@@ -26,6 +26,6 @@ int initalize_game() {
 }
 
 int main(){
-    if(initalize_game) printf("Initalize game success!");
+    if(initalize_game()) printf("Initalize game success!");
     return 1;
 }
